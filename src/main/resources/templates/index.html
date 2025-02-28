@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>PDF Demo</title>
+</head>
+<body>
+<h1>Generate PDF</h1>
+<form action="/generate-pdf" method="post">
+  <label for="name">Enter your name:</label>
+  <input type="text" id="name" name="name" required>
+  <button type="submit">Generate PDF</button>
+</form>
+</body>
+</html>
